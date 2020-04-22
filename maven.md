@@ -18,9 +18,9 @@
 
 maven工程来构建，会发现总体上工程的大小会少很多。
 
-![](E:\gitbook\book\img\maven05.png)
+![](..\img\maven05.png)
 
-![](E:\gitbook\book\img\maven01.png)
+![](...\img\maven01.png)
 
 **核心功能**
 
@@ -39,7 +39,7 @@ http://maven.apache.org/download.cgi
 1、环境变量设置
 
 ```
-![maven02](E:\gitbook\book\img\maven02.png)MAVEN_HOME
+![maven02](..\img\maven02.png)MAVEN_HOME
 
 D:\apache\apache-maven-3.6.3
 ```
@@ -54,7 +54,7 @@ D:\apache\apache-maven-3.6.3
 
 仓库分三类：本地仓库、远程仓库（私服），中央仓库。
 
-![](E:\gitbook\book\img\maven02.png)
+![](..\img\maven02.png)
 
 maven工程 根据jar包坐标，在本地仓库找到，如果本地仓库找不到，到远程仓库私服找，再到中央仓库jar找(必须连网)
 
@@ -72,7 +72,7 @@ maven工程 根据jar包坐标，在本地仓库找到，如果本地仓库找�
 
 ## maven目录结构
 
-![](E:\gitbook\book\img\maven03.png)
+![](..\img\maven03.png)
 
 ## maven 常用命令
 
@@ -90,19 +90,19 @@ mvn deploy 发布
 
 ## maven生命周期
 
-![](E:\gitbook\book\img\maven04.png)
+![](..\img\maven04.png)
 
 ## maven 概念模型
 
 maven核心：依赖管理和一键构建
 
-![](E:\gitbook\book\img\maven06.png)
+![](..\img\maven06.png)
 
 ## idea集成maven
 
-![](E:\gitbook\book\img\idea01.png)
+![](..\img\idea01.png)
 
-![](E:\gitbook\book\img\idea02.png)
+![](..\img\idea02.png)
 
 -DarchetypeCatalog=internal
 
@@ -112,12 +112,12 @@ maven核心：依赖管理和一键构建
 
 使用骨架  quickstart创建工程 （开发中不建议使用）
 
-![](E:\gitbook\book\img\idea03.png)
+![](..\img\idea03.png)
 
-![](E:\gitbook\book\img\idea06.png)
+![](..\img\idea06.png)
 
 
 
-![](E:\gitbook\book\img\idea04.png)
+![](..\img\idea04.png)
 
-![](E:\gitbook\book\img\idea05.png)
+![](..\img\idea05.png)
